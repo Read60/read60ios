@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF3F93391C0713EC0073DC03 /* Read60.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF3F93371C0713EC0073DC03 /* Read60.xcdatamodeld */; };
+		BF3F933A1C0717EB0073DC03 /* Read60.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = BF3F93371C0713EC0073DC03 /* Read60.xcdatamodeld */; };
 		BF92CCFF1C06BC7900E382FE /* badges.json in Resources */ = {isa = PBXBuildFile; fileRef = BF92CCFE1C06BC7900E382FE /* badges.json */; };
 		BF92CD021C06BC9700E382FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF92CD001C06BC9700E382FE /* Main.storyboard */; };
 		BF92CD041C06BCA400E382FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF92CD031C06BCA400E382FE /* Images.xcassets */; };
 		BF92CD061C06BCB000E382FE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF92CD051C06BCB000E382FE /* HomeViewController.swift */; };
 		BF92CD081C06BCCE00E382FE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF92CD071C06BCCE00E382FE /* Info.plist */; };
 		BF92CD0A1C06BCDB00E382FE /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF92CD091C06BCDB00E382FE /* Location.swift */; };
-		BF92CD0D1C06BCE300E382FE /* Read60.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF92CD0B1C06BCE300E382FE /* Read60.xcdatamodeld */; };
 		BF92CD121C06BD0100E382FE /* MulticolorPolylineSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF92CD0E1C06BD0100E382FE /* MulticolorPolylineSegment.swift */; };
 		BF92CD131C06BD0100E382FE /* NewRunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF92CD0F1C06BD0100E382FE /* NewRunViewController.swift */; };
 		BF92CD141C06BD0100E382FE /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF92CD101C06BD0100E382FE /* Run.swift */; };
@@ -43,13 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF3F93381C0713EC0073DC03 /* Read60.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Read60.xcdatamodel; sourceTree = "<group>"; };
 		BF92CCFE1C06BC7900E382FE /* badges.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = badges.json; sourceTree = "<group>"; };
 		BF92CD011C06BC9700E382FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF92CD031C06BCA400E382FE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BF92CD051C06BCB000E382FE /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		BF92CD071C06BCCE00E382FE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF92CD091C06BCDB00E382FE /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
-		BF92CD0C1C06BCE300E382FE /* Read60.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Read60.xcdatamodel; sourceTree = "<group>"; };
 		BF92CD0E1C06BD0100E382FE /* MulticolorPolylineSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MulticolorPolylineSegment.swift; sourceTree = "<group>"; };
 		BF92CD0F1C06BD0100E382FE /* NewRunViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRunViewController.swift; sourceTree = "<group>"; };
 		BF92CD101C06BD0100E382FE /* Run.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
@@ -131,8 +132,8 @@
 				BF92CD031C06BCA400E382FE /* Images.xcassets */,
 				BF92CD091C06BCDB00E382FE /* Location.swift */,
 				BF92CD071C06BCCE00E382FE /* Info.plist */,
-				BF92CD0B1C06BCE300E382FE /* Read60.xcdatamodeld */,
 				BF92CD0E1C06BD0100E382FE /* MulticolorPolylineSegment.swift */,
+				BF3F93371C0713EC0073DC03 /* Read60.xcdatamodeld */,
 				BF92CD0F1C06BD0100E382FE /* NewRunViewController.swift */,
 				BF92CD101C06BD0100E382FE /* Run.swift */,
 				BF92CD111C06BD0100E382FE /* success.wav */,
@@ -262,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF3F933A1C0717EB0073DC03 /* Read60.xcdatamodeld in Resources */,
 				BF92CD171C06BDA200E382FE /* Launch Screen.storyboard in Resources */,
 				BF92CD021C06BC9700E382FE /* Main.storyboard in Resources */,
 				BF92CD041C06BCA400E382FE /* Images.xcassets in Resources */,
@@ -292,13 +294,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF3F93391C0713EC0073DC03 /* Read60.xcdatamodeld in Sources */,
 				BF92CD131C06BD0100E382FE /* NewRunViewController.swift in Sources */,
 				BF92CD141C06BD0100E382FE /* Run.swift in Sources */,
 				BFCEF7A81C06BB98000AFD46 /* AppDelegate.swift in Sources */,
 				BF92CD121C06BD0100E382FE /* MulticolorPolylineSegment.swift in Sources */,
 				BF92CD0A1C06BCDB00E382FE /* Location.swift in Sources */,
 				BFCEF7AF1C06BB98000AFD46 /* DetailViewController.swift in Sources */,
-				BF92CD0D1C06BCE300E382FE /* Read60.xcdatamodeld in Sources */,
 				BF92CD061C06BCB000E382FE /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -544,12 +546,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		BF92CD0B1C06BCE300E382FE /* Read60.xcdatamodeld */ = {
+		BF3F93371C0713EC0073DC03 /* Read60.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				BF92CD0C1C06BCE300E382FE /* Read60.xcdatamodel */,
+				BF3F93381C0713EC0073DC03 /* Read60.xcdatamodel */,
 			);
-			currentVersion = BF92CD0C1C06BCE300E382FE /* Read60.xcdatamodel */;
+			currentVersion = BF3F93381C0713EC0073DC03 /* Read60.xcdatamodel */;
 			path = Read60.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
