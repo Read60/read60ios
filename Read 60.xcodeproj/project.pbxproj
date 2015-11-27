@@ -19,11 +19,11 @@
 		BF92CD131C06BD0100E382FE /* NewRunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF92CD0F1C06BD0100E382FE /* NewRunViewController.swift */; };
 		BF92CD141C06BD0100E382FE /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF92CD101C06BD0100E382FE /* Run.swift */; };
 		BF92CD151C06BD0100E382FE /* success.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF92CD111C06BD0100E382FE /* success.wav */; };
-		BF92CD171C06BDA200E382FE /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF92CD161C06BDA200E382FE /* Launch Screen.storyboard */; };
 		BFCEF7A81C06BB98000AFD46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCEF7A71C06BB98000AFD46 /* AppDelegate.swift */; };
 		BFCEF7AF1C06BB98000AFD46 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCEF7AE1C06BB98000AFD46 /* DetailViewController.swift */; };
 		BFCEF7C21C06BB98000AFD46 /* Read_60Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCEF7C11C06BB98000AFD46 /* Read_60Tests.swift */; };
 		BFCEF7CD1C06BB98000AFD46 /* Read_60UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCEF7CC1C06BB98000AFD46 /* Read_60UITests.swift */; };
+		BFDAA87B1C0834B100EC17A1 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFDAA8791C0834B100EC17A1 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +65,7 @@
 		BFCEF7C81C06BB98000AFD46 /* Read 60UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Read 60UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFCEF7CC1C06BB98000AFD46 /* Read_60UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Read_60UITests.swift; sourceTree = "<group>"; };
 		BFCEF7CE1C06BB98000AFD46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFDAA87A1C0834B100EC17A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Read 60/Base.lproj/Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +106,7 @@
 		BFCEF79B1C06BB98000AFD46 = {
 			isa = PBXGroup;
 			children = (
+				BFDAA8791C0834B100EC17A1 /* Launch Screen.storyboard */,
 				BF3F933B1C071FA20073DC03 /* UIKit.framework */,
 				BF92CD181C06BDE000E382FE /* Base */,
 				BFCEF7A61C06BB98000AFD46 /* Read 60 */,
@@ -264,9 +266,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFDAA87B1C0834B100EC17A1 /* Launch Screen.storyboard in Resources */,
 				BF3F933A1C0717EB0073DC03 /* Read60.xcdatamodeld in Resources */,
 				BF3F93401C072CAC0073DC03 /* Images.xcassets in Resources */,
-				BF92CD171C06BDA200E382FE /* Launch Screen.storyboard in Resources */,
 				BF92CD021C06BC9700E382FE /* Main.storyboard in Resources */,
 				BF92CD081C06BCCE00E382FE /* Info.plist in Resources */,
 				BF92CD151C06BD0100E382FE /* success.wav in Resources */,
@@ -344,6 +346,14 @@
 			);
 			name = Main.storyboard;
 			path = "Read 60";
+			sourceTree = "<group>";
+		};
+		BFDAA8791C0834B100EC17A1 /* Launch Screen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFDAA87A1C0834B100EC17A1 /* Base */,
+			);
+			name = "Launch Screen.storyboard";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
