@@ -44,7 +44,7 @@
                             <userLayoutGuide location="700" affinity="minY"/>
                         </userGuides>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i98-rN-GTE">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i98-rN-GTE">
                                 <rect key="frame" x="135" y="283" width="161" height="89"/>
                                 <animations/>
                                 <state key="normal" image="ISBN SCAN"/>
@@ -52,7 +52,7 @@
                                     <rect key="frame" x="20" y="323" width="131" height="72"/>
                                 </variation>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UvJ-qS-hsQ">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UvJ-qS-hsQ">
                                 <rect key="frame" x="135" y="387" width="161" height="89"/>
                                 <animations/>
                                 <state key="normal" image="Progress"/>
@@ -74,7 +74,7 @@
                                     <segue destination="HWb-Gp-C7s" kind="show" id="Wey-cr-KUD"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0gn-of-sF1">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0gn-of-sF1">
                                 <rect key="frame" x="304" y="387" width="161" height="89"/>
                                 <animations/>
                                 <state key="normal" image="Profile"/>
@@ -82,7 +82,7 @@
                                     <rect key="frame" x="169" y="408" width="131" height="72"/>
                                 </variation>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gqp-Pd-8oE" userLabel="Rewards">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gqp-Pd-8oE" userLabel="Rewards">
                                 <rect key="frame" x="304" y="491" width="161" height="89"/>
                                 <animations/>
                                 <state key="normal" image="Rewards">
@@ -106,8 +106,11 @@
                                 <variation key="heightClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="169" y="236" width="131" height="72"/>
                                 </variation>
+                                <connections>
+                                    <segue destination="ZKN-14-UhA" kind="show" id="XNK-Q2-Yp0"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jJL-DQ-xP9">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jJL-DQ-xP9">
                                 <rect key="frame" x="304" y="283" width="161" height="89"/>
                                 <animations/>
                                 <state key="normal" image="Messages"/>
@@ -115,7 +118,7 @@
                                     <rect key="frame" x="169" y="323" width="131" height="72"/>
                                 </variation>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eoB-5V-hru">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eoB-5V-hru">
                                 <rect key="frame" x="135" y="491" width="161" height="89"/>
                                 <animations/>
                                 <state key="normal" image="Goal"/>
@@ -166,22 +169,22 @@
                                 <exclude reference="Grq-sM-muF"/>
                                 <exclude reference="gqq-5a-iTB"/>
                                 <exclude reference="hQf-Aw-VIJ"/>
-                                <exclude reference="HAk-fy-O1q"/>
-                                <exclude reference="Xai-fV-EpS"/>
-                                <exclude reference="qYm-2Q-qUe"/>
-                                <exclude reference="vRR-ga-mPE"/>
                                 <exclude reference="KiV-Tv-Bwb"/>
                                 <exclude reference="f6C-fu-MDl"/>
                                 <exclude reference="i70-Tk-elB"/>
                                 <exclude reference="srF-ea-zal"/>
-                                <exclude reference="Eal-pU-c53"/>
-                                <exclude reference="dQq-nf-UHA"/>
-                                <exclude reference="eqP-Un-mGN"/>
-                                <exclude reference="hL7-v4-Wl0"/>
+                                <exclude reference="HAk-fy-O1q"/>
+                                <exclude reference="Xai-fV-EpS"/>
+                                <exclude reference="qYm-2Q-qUe"/>
+                                <exclude reference="vRR-ga-mPE"/>
                                 <exclude reference="XrE-HE-kbw"/>
                                 <exclude reference="jOv-cB-mVe"/>
                                 <exclude reference="kT7-Ag-elg"/>
                                 <exclude reference="xX2-Pg-Wul"/>
+                                <exclude reference="Eal-pU-c53"/>
+                                <exclude reference="dQq-nf-UHA"/>
+                                <exclude reference="eqP-Un-mGN"/>
+                                <exclude reference="hL7-v4-Wl0"/>
                                 <exclude reference="HSi-NM-R8r"/>
                                 <exclude reference="LiB-ue-sdf"/>
                                 <exclude reference="V4v-hC-1uv"/>
@@ -202,22 +205,22 @@
                                 <include reference="Grq-sM-muF"/>
                                 <include reference="gqq-5a-iTB"/>
                                 <include reference="hQf-Aw-VIJ"/>
-                                <include reference="HAk-fy-O1q"/>
-                                <include reference="Xai-fV-EpS"/>
-                                <include reference="qYm-2Q-qUe"/>
-                                <include reference="vRR-ga-mPE"/>
                                 <include reference="KiV-Tv-Bwb"/>
                                 <include reference="f6C-fu-MDl"/>
                                 <include reference="i70-Tk-elB"/>
                                 <include reference="srF-ea-zal"/>
-                                <include reference="Eal-pU-c53"/>
-                                <include reference="dQq-nf-UHA"/>
-                                <include reference="eqP-Un-mGN"/>
-                                <include reference="hL7-v4-Wl0"/>
+                                <include reference="HAk-fy-O1q"/>
+                                <include reference="Xai-fV-EpS"/>
+                                <include reference="qYm-2Q-qUe"/>
+                                <include reference="vRR-ga-mPE"/>
                                 <include reference="XrE-HE-kbw"/>
                                 <include reference="jOv-cB-mVe"/>
                                 <include reference="kT7-Ag-elg"/>
                                 <include reference="xX2-Pg-Wul"/>
+                                <include reference="Eal-pU-c53"/>
+                                <include reference="dQq-nf-UHA"/>
+                                <include reference="eqP-Un-mGN"/>
+                                <include reference="hL7-v4-Wl0"/>
                                 <include reference="HSi-NM-R8r"/>
                                 <include reference="LiB-ue-sdf"/>
                                 <include reference="V4v-hC-1uv"/>
@@ -383,6 +386,37 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="44d-jh-T4R" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1311" y="64"/>
+        </scene>
+        <!--Library Controller-->
+        <scene sceneID="7Zi-VH-0ig">
+            <objects>
+                <tableViewController id="ZKN-14-UhA" customClass="LibraryController" customModule="Read_60" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="keO-mb-js7">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="ByI-nd-aSs">
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ByI-nd-aSs" id="FVs-eO-xKB">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <animations/>
+                                </tableViewCellContentView>
+                                <animations/>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="ZKN-14-UhA" id="eXA-or-8nv"/>
+                            <outlet property="delegate" destination="ZKN-14-UhA" id="x0z-7K-R5F"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nRy-3W-58S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="507" y="887"/>
         </scene>
         <!--Rewards-->
         <scene sceneID="Xck-tM-9jZ">

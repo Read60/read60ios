@@ -19,6 +19,7 @@
 		BF92CD131C06BD0100E382FE /* NewRunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF92CD0F1C06BD0100E382FE /* NewRunViewController.swift */; };
 		BF92CD141C06BD0100E382FE /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF92CD101C06BD0100E382FE /* Run.swift */; };
 		BF92CD151C06BD0100E382FE /* success.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF92CD111C06BD0100E382FE /* success.wav */; };
+		BFC495FA1C0BE87000486A85 /* LibraryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC495F91C0BE87000486A85 /* LibraryController.swift */; };
 		BFCEF7A81C06BB98000AFD46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCEF7A71C06BB98000AFD46 /* AppDelegate.swift */; };
 		BFCEF7AF1C06BB98000AFD46 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCEF7AE1C06BB98000AFD46 /* DetailViewController.swift */; };
 		BFCEF7C21C06BB98000AFD46 /* Read_60Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCEF7C11C06BB98000AFD46 /* Read_60Tests.swift */; };
@@ -56,6 +57,7 @@
 		BF92CD101C06BD0100E382FE /* Run.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
 		BF92CD111C06BD0100E382FE /* success.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = success.wav; sourceTree = "<group>"; };
 		BF92CD161C06BDA200E382FE /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "Read 60/Base.lproj/Launch Screen.storyboard"; sourceTree = "<group>"; };
+		BFC495F91C0BE87000486A85 /* LibraryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryController.swift; sourceTree = "<group>"; };
 		BFCEF7A41C06BB98000AFD46 /* Read 60.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Read 60.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFCEF7A71C06BB98000AFD46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFCEF7AE1C06BB98000AFD46 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				BF92CD0F1C06BD0100E382FE /* NewRunViewController.swift */,
 				BF92CD101C06BD0100E382FE /* Run.swift */,
 				BF92CD111C06BD0100E382FE /* success.wav */,
+				BFC495F91C0BE87000486A85 /* LibraryController.swift */,
 			);
 			path = "Read 60";
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				BF92CD121C06BD0100E382FE /* MulticolorPolylineSegment.swift in Sources */,
 				BF92CD0A1C06BCDB00E382FE /* Location.swift in Sources */,
 				BFCEF7AF1C06BB98000AFD46 /* DetailViewController.swift in Sources */,
+				BFC495FA1C0BE87000486A85 /* LibraryController.swift in Sources */,
 				BF92CD061C06BCB000E382FE /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
