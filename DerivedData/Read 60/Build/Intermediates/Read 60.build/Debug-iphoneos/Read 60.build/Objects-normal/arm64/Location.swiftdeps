@@ -1,0 +1,103 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Location"
+provides-nominal:
+- "C7Read_608Location"
+provides-member:
+- ["C7Read_608Location", ""]
+provides-dynamic-lookup:
+- "longitude"
+- "timestamp"
+- "run"
+- "latitude"
+depends-top-level:
+- "NSManagedObject"
+- "NSDate"
+- "NSNumber"
+- "Location"
+depends-member:
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "latitude"]
+- ["PSs9AnyObject", "longitude"]
+- ["PSs9AnyObject", "run"]
+- ["PSs9AnyObject", "timestamp"]
+- ["PSs9AnyObject", ""]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "latitude"]
+- ["PSs11CVarArgType", "longitude"]
+- ["PSs11CVarArgType", "run"]
+- ["PSs11CVarArgType", "timestamp"]
+- ["PSs11CVarArgType", ""]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "latitude"]
+- ["PSs23CustomStringConvertible", "longitude"]
+- ["PSs23CustomStringConvertible", "run"]
+- ["PSs23CustomStringConvertible", "timestamp"]
+- ["PSs23CustomStringConvertible", ""]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "latitude"]
+- ["PSs9Equatable", "longitude"]
+- ["PSs9Equatable", "run"]
+- ["PSs9Equatable", "timestamp"]
+- ["PSs9Equatable", ""]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "latitude"]
+- ["PSs8Hashable", "longitude"]
+- ["PSs8Hashable", "run"]
+- ["PSs8Hashable", "timestamp"]
+- ["PSs8Hashable", ""]
+- ["C7Read_608Location", "NSDate"]
+- ["C7Read_608Location", "NSManagedObject"]
+- ["C7Read_608Location", "NSNumber"]
+- ["C7Read_608Location", "deinit"]
+- ["C7Read_608Location", "init"]
+- ["C7Read_608Location", "latitude"]
+- ["C7Read_608Location", "longitude"]
+- ["C7Read_608Location", "run"]
+- ["C7Read_608Location", "timestamp"]
+- ["CSo15NSManagedObject", "NSDate"]
+- ["CSo15NSManagedObject", "NSManagedObject"]
+- ["CSo15NSManagedObject", "NSNumber"]
+- ["CSo15NSManagedObject", "init"]
+- ["CSo15NSManagedObject", "latitude"]
+- ["CSo15NSManagedObject", "longitude"]
+- ["CSo15NSManagedObject", "run"]
+- ["CSo15NSManagedObject", "timestamp"]
+- ["CSo15NSManagedObject", ""]
+- ["CSo8NSObject", "NSDate"]
+- ["CSo8NSObject", "NSManagedObject"]
+- ["CSo8NSObject", "NSNumber"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "latitude"]
+- ["CSo8NSObject", "longitude"]
+- ["CSo8NSObject", "run"]
+- ["CSo8NSObject", "timestamp"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "latitude"]
+- ["PSo16NSObjectProtocol", "longitude"]
+- ["PSo16NSObjectProtocol", "run"]
+- ["PSo16NSObjectProtocol", "timestamp"]
+- ["PSo16NSObjectProtocol", ""]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "C7Read_608Location"
+- "CSo15NSManagedObject"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+interface-hash: "806f8770ff61fdbb62f32bbbbf6623c8"
