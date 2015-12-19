@@ -81,6 +81,38 @@
             endingLineNumber = "54"
             landmarkName = "getUsers()"
             landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Read_60.LibraryController.getUsers (Read_60.LibraryController)() -&gt; ()"
+                  moduleName = "Read 60"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Vincent/Documents/Celebrity%20Publishing/XCode/Developer/Master/Read-60/Read%2060/LibraryController.swift"
+                  timestampString = "472179377.075511"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "444">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Read_60.LibraryController.(getUsers (Read_60.LibraryController) -&gt; () -&gt; ()).(closure #1)"
+                  moduleName = "Read 60"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Vincent/Documents/Celebrity%20Publishing/XCode/Developer/Master/Read-60/Read%2060/LibraryController.swift"
+                  timestampString = "472179377.07667"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "500">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
