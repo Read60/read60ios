@@ -1,0 +1,12 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "58d4718f125f5ee389307b39afcc8b07"
+build_time: [503798150, 910957000]
+inputs:
+  "/Users/Vincent/Documents/Celebrity Publishing/XCode/Developer/Master/Read-60/Read 60/NewRunViewController.swift": [503796993, 0]
+  "/Users/Vincent/Documents/Celebrity Publishing/XCode/Developer/Master/Read-60/Read 60/DetailViewController.swift": [503796993, 0]
+  "/Users/Vincent/Documents/Celebrity Publishing/XCode/Developer/Master/Read-60/Read 60/MulticolorPolylineSegment.swift": [503796993, 0]
+  "/Users/Vincent/Documents/Celebrity Publishing/XCode/Developer/Master/Read-60/Read 60/AppDelegate.swift": [503796993, 0]
+  "/Users/Vincent/Documents/Celebrity Publishing/XCode/Developer/Master/Read-60/Read 60/LibraryController.swift": [503796993, 0]
+  "/Users/Vincent/Documents/Celebrity Publishing/XCode/Developer/Master/Read-60/Read 60/Run.swift": [503796993, 0]
+  "/Users/Vincent/Documents/Celebrity Publishing/XCode/Developer/Master/Read-60/Read 60/Location.swift": [503796993, 0]
+  "/Users/Vincent/Documents/Celebrity Publishing/XCode/Developer/Master/Read-60/Read 60/HomeViewController.swift": [503796993, 0]
