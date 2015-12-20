@@ -7,15 +7,15 @@ provides-member:
 - ["C7Read_603Run", ""]
 provides-dynamic-lookup:
 - "timestamp"
+- "locations"
 - "duration"
 - "distance"
-- "locations"
 depends-top-level:
 - "NSOrderedSet"
 - "NSManagedObject"
 - "NSNumber"
-- "Run"
 - "NSDate"
+- "Run"
 depends-member:
 - ["PSs9AnyObject", "distance"]
 - ["PSs9AnyObject", "duration"]

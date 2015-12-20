@@ -6,15 +6,15 @@ provides-nominal:
 provides-member:
 - ["C7Read_608Location", ""]
 provides-dynamic-lookup:
+- "run"
 - "longitude"
 - "timestamp"
-- "run"
 - "latitude"
 depends-top-level:
-- "NSNumber"
 - "NSManagedObject"
-- "NSDate"
+- "NSNumber"
 - "Location"
+- "NSDate"
 depends-member:
 - ["PSs9AnyObject", "init"]
 - ["PSs9AnyObject", "latitude"]

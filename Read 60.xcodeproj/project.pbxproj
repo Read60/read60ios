@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CB9A1B020ABD167A9F4D285 /* Pods_Read_60.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 544A07C7473203C44646DDC5 /* Pods_Read_60.framework */; };
 		BF2ECB911C24D06C0040AEC7 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF2ECB901C24D06C0040AEC7 /* Launch Screen.storyboard */; };
 		BF3F93391C0713EC0073DC03 /* Read60.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF3F93371C0713EC0073DC03 /* Read60.xcdatamodeld */; };
 		BF3F933A1C0717EB0073DC03 /* Read60.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = BF3F93371C0713EC0073DC03 /* Read60.xcdatamodeld */; };
@@ -45,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		544A07C7473203C44646DDC5 /* Pods_Read_60.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Read_60.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FA89905CB33E53D19CA0799 /* Pods-Read 60.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Read 60.release.xcconfig"; path = "Pods/Target Support Files/Pods-Read 60/Pods-Read 60.release.xcconfig"; sourceTree = "<group>"; };
 		BF2ECB901C24D06C0040AEC7 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		BF3F93381C0713EC0073DC03 /* Read60.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Read60.xcdatamodel; sourceTree = "<group>"; };
 		BF3F933B1C071FA20073DC03 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -67,6 +70,7 @@
 		BFCEF7C81C06BB98000AFD46 /* Read 60UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Read 60UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFCEF7CC1C06BB98000AFD46 /* Read_60UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Read_60UITests.swift; sourceTree = "<group>"; };
 		BFCEF7CE1C06BB98000AFD46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5E6BBC9296EA8419A326DF0 /* Pods-Read 60.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Read 60.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Read 60/Pods-Read 60.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF3F933C1C071FA20073DC03 /* UIKit.framework in Frameworks */,
+				3CB9A1B020ABD167A9F4D285 /* Pods_Read_60.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +100,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		299F71D94ED7E8395A8FBA50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				544A07C7473203C44646DDC5 /* Pods_Read_60.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BF92CD181C06BDE000E382FE /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +126,8 @@
 				BFCEF7C01C06BB98000AFD46 /* Read 60Tests */,
 				BFCEF7CB1C06BB98000AFD46 /* Read 60UITests */,
 				BFCEF7A51C06BB98000AFD46 /* Products */,
+				FD019C662FE55615F7E60729 /* Pods */,
+				299F71D94ED7E8395A8FBA50 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -163,6 +178,15 @@
 			path = "Read 60UITests";
 			sourceTree = "<group>";
 		};
+		FD019C662FE55615F7E60729 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5E6BBC9296EA8419A326DF0 /* Pods-Read 60.debug.xcconfig */,
+				9FA89905CB33E53D19CA0799 /* Pods-Read 60.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -170,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFCEF7D11C06BB98000AFD46 /* Build configuration list for PBXNativeTarget "Read 60" */;
 			buildPhases = (
+				D053035284CD911422D8667B /* Check Pods Manifest.lock */,
 				BFCEF7A01C06BB98000AFD46 /* Sources */,
 				BFCEF7A11C06BB98000AFD46 /* Frameworks */,
 				BFCEF7A21C06BB98000AFD46 /* Resources */,
+				DEA200333DC13E1D16C4B194 /* Embed Pods Frameworks */,
+				8CDAEAE1E9DABDB96D574DB3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -291,6 +318,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8CDAEAE1E9DABDB96D574DB3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Read 60/Pods-Read 60-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D053035284CD911422D8667B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DEA200333DC13E1D16C4B194 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Read 60/Pods-Read 60-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BFCEF7A01C06BB98000AFD46 /* Sources */ = {
@@ -440,6 +515,7 @@
 		};
 		BFCEF7D21C06BB98000AFD46 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5E6BBC9296EA8419A326DF0 /* Pods-Read 60.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Read 60/Info.plist";
@@ -451,6 +527,7 @@
 		};
 		BFCEF7D31C06BB98000AFD46 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FA89905CB33E53D19CA0799 /* Pods-Read 60.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Read 60/Info.plist";
