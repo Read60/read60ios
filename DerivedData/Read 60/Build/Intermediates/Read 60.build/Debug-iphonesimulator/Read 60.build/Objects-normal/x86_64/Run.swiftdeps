@@ -6,16 +6,16 @@ provides-nominal:
 provides-member:
 - ["C7Read_603Run", ""]
 provides-dynamic-lookup:
-- "timestamp"
-- "locations"
 - "duration"
+- "timestamp"
 - "distance"
+- "locations"
 depends-top-level:
-- "NSOrderedSet"
-- "NSManagedObject"
-- "NSNumber"
-- "NSDate"
 - "Run"
+- "NSOrderedSet"
+- "NSNumber"
+- "NSManagedObject"
+- "NSDate"
 depends-member:
 - ["PSs9AnyObject", "distance"]
 - ["PSs9AnyObject", "duration"]
@@ -101,4 +101,11 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/Vincent/Documents/Celebrity Publishing/XCode/Developer/Master/Read-60/Pods/Google/Headers/ModuleHeaders/SignIn-Module.h"
+- "/Users/Vincent/Documents/Celebrity Publishing/XCode/Developer/Master/Read-60/Pods/Google/Headers/ModuleHeaders/Core-Module.h"
+- "/Users/Vincent/Documents/Celebrity Publishing/XCode/Developer/Master/Read-60/Pods/Google/Headers/ModuleHeaders/CloudMessaging-Module.h"
+- "/Users/Vincent/Documents/Celebrity Publishing/XCode/Developer/Master/Read-60/Pods/Google/Headers/ModuleHeaders/AppInvite-Module.h"
+- "/Users/Vincent/Documents/Celebrity Publishing/XCode/Developer/Master/Read-60/Pods/Google/Headers/ModuleHeaders/Analytics-Module.h"
+- "/Users/Vincent/Documents/Celebrity Publishing/XCode/Developer/Master/Read-60/Pods/Google/Headers/ModuleHeaders/AdMob-Module.h"
+- "/Users/Vincent/Documents/Celebrity Publishing/XCode/Developer/Master/Read-60/Pods/Google/Headers/module.modulemap"
 interface-hash: "b75da549ef274c03ca892c71f4f4cf6f"

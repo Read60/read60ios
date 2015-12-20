@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import Google
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

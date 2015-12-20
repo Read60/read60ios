@@ -15,7 +15,6 @@
 		BF3F93401C072CAC0073DC03 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF3F933F1C072CAC0073DC03 /* Images.xcassets */; };
 		BF92CD021C06BC9700E382FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF92CD001C06BC9700E382FE /* Main.storyboard */; };
 		BF92CD061C06BCB000E382FE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF92CD051C06BCB000E382FE /* HomeViewController.swift */; };
-		BF92CD081C06BCCE00E382FE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF92CD071C06BCCE00E382FE /* Info.plist */; };
 		BF92CD0A1C06BCDB00E382FE /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF92CD091C06BCDB00E382FE /* Location.swift */; };
 		BF92CD121C06BD0100E382FE /* MulticolorPolylineSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF92CD0E1C06BD0100E382FE /* MulticolorPolylineSegment.swift */; };
 		BF92CD131C06BD0100E382FE /* NewRunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF92CD0F1C06BD0100E382FE /* NewRunViewController.swift */; };
@@ -253,7 +252,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0710;
-				LastUpgradeCheck = 0710;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Celebrity Publishing";
 				TargetAttributes = {
 					BFCEF7A31C06BB98000AFD46 = {
@@ -298,7 +297,6 @@
 				BF3F933A1C0717EB0073DC03 /* Read60.xcdatamodeld in Resources */,
 				BF3F93401C072CAC0073DC03 /* Images.xcassets in Resources */,
 				BF92CD021C06BC9700E382FE /* Main.storyboard in Resources */,
-				BF92CD081C06BCCE00E382FE /* Info.plist in Resources */,
 				BF92CD151C06BD0100E382FE /* success.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
