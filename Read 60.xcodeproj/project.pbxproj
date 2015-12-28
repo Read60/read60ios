@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3CB9A1B020ABD167A9F4D285 /* Pods_Read_60.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 544A07C7473203C44646DDC5 /* Pods_Read_60.framework */; };
+		B06509701C3116CE00D619E8 /* RestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B065096F1C3116CE00D619E8 /* RestManager.swift */; };
 		BF2ECB911C24D06C0040AEC7 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF2ECB901C24D06C0040AEC7 /* Launch Screen.storyboard */; };
 		BF3F93391C0713EC0073DC03 /* Read60.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF3F93371C0713EC0073DC03 /* Read60.xcdatamodeld */; };
 		BF3F933A1C0717EB0073DC03 /* Read60.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = BF3F93371C0713EC0073DC03 /* Read60.xcdatamodeld */; };
@@ -47,6 +48,7 @@
 /* Begin PBXFileReference section */
 		544A07C7473203C44646DDC5 /* Pods_Read_60.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Read_60.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FA89905CB33E53D19CA0799 /* Pods-Read 60.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Read 60.release.xcconfig"; path = "Pods/Target Support Files/Pods-Read 60/Pods-Read 60.release.xcconfig"; sourceTree = "<group>"; };
+		B065096F1C3116CE00D619E8 /* RestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestManager.swift; sourceTree = "<group>"; };
 		BF2ECB901C24D06C0040AEC7 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		BF3F93381C0713EC0073DC03 /* Read60.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Read60.xcdatamodel; sourceTree = "<group>"; };
 		BF3F933B1C071FA20073DC03 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -143,6 +145,7 @@
 		BFCEF7A61C06BB98000AFD46 /* Read 60 */ = {
 			isa = PBXGroup;
 			children = (
+				B065096F1C3116CE00D619E8 /* RestManager.swift */,
 				BFCEF7A71C06BB98000AFD46 /* AppDelegate.swift */,
 				BFCEF7AE1C06BB98000AFD46 /* DetailViewController.swift */,
 				BF92CD051C06BCB000E382FE /* HomeViewController.swift */,
@@ -371,6 +374,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF3F93391C0713EC0073DC03 /* Read60.xcdatamodeld in Sources */,
+				B06509701C3116CE00D619E8 /* RestManager.swift in Sources */,
 				BF92CD131C06BD0100E382FE /* NewRunViewController.swift in Sources */,
 				BF92CD141C06BD0100E382FE /* Run.swift in Sources */,
 				BFCEF7A81C06BB98000AFD46 /* AppDelegate.swift in Sources */,
