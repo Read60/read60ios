@@ -39,18 +39,18 @@ class LibraryController: UITableViewController {
     
     
     func getUsers() {
-        let urlPath = "https://read60rest-read60.rhcloud.com/students/3"
+        let urlPath = "http://read60rest-read60.rhcloud.com/students/3"
         let url = NSURL(string: urlPath)!
         
         let session = NSURLSession.sharedSession()
         session.dataTaskWithURL(url, completionHandler:
             {(data:NSData?, response: NSURLResponse?, error: NSError?) -> Void in
                 
-                    if let ipString = NSString(data: data!, encoding: NSUTF8StringEncoding) {
+ //                   if let ipString = NSString(data: data!, encoding: NSUTF8StringEncoding) {
                         
-                        self.library = ["test1", "test2", "test3", ipString as String]
+            //            self.library = ["test1", "test2", "test3", ipString as String]
                 
-                }
+  //              }
                 
         }).resume()
     }

@@ -7,19 +7,19 @@ provides-member:
 - ["O9Alamofire6Result", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "ErrorType"
-- "NSData"
-- !private "StringLiteralType"
-- "Result"
-- !private "NSString"
-- !private "NSUTF8StringEncoding"
-- !private "UnicodeScalarType"
-- "String"
-- "Bool"
-- "CustomStringConvertible"
-- "CustomDebugStringConvertible"
-- !private "!"
 - !private "BooleanLiteralType"
+- "ErrorType"
+- "Result"
+- "CustomDebugStringConvertible"
+- !private "NSUTF8StringEncoding"
+- "NSData"
+- !private "!"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "NSString"
+- "CustomStringConvertible"
+- "Bool"
 depends-member:
 - !private ["PSs9AnyObject", "init"]
 - !private ["Sb", "deinit"]

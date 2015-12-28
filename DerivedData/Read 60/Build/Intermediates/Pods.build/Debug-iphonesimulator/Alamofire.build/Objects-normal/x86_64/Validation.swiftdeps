@@ -15,26 +15,26 @@ provides-member:
 - ["C9Alamofire7Request", "validate"]
 provides-dynamic-lookup:
 depends-top-level:
-- "NSHTTPURLResponse"
 - !private "NSCharacterSet"
-- !private "String"
+- !private "Int"
+- !private "??"
+- "StringLiteralType"
+- !private "Error"
 - !private "SequenceType"
-- "UnicodeScalarType"
+- !private "String"
+- "ErrorType"
+- "Request"
 - !private "=="
 - !private "~="
-- "ErrorType"
-- "StringLiteralType"
+- "UnicodeScalarType"
+- !private "BooleanLiteralType"
 - !private "&&"
 - !private "Range"
 - !private "Bool"
-- "NSURLRequest"
-- "Request"
-- !private "??"
 - !private "+"
-- !private "BooleanLiteralType"
+- "NSURLRequest"
 - !private "..<"
-- !private "Error"
-- !private "Int"
+- "NSHTTPURLResponse"
 depends-member:
 - !private ["PSs9AnyObject", "Error"]
 - !private ["PSs9AnyObject", "MIMEType"]
