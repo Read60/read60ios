@@ -32,14 +32,14 @@
                         <viewControllerLayoutGuide type="bottom" id="5BI-Ho-mbZ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Bqd-DV-DRx">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <userGuides>
                             <userLayoutGuide location="700" affinity="minY"/>
                         </userGuides>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i98-rN-GTE">
-                                <rect key="frame" x="20" y="352" width="165.5" height="75"/>
+                                <rect key="frame" x="20" y="253" width="138" height="75"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="52" id="5Y6-k4-aw2"/>
                                     <constraint firstAttribute="height" constant="75" id="RTx-SC-OUI">
@@ -54,9 +54,6 @@
                                         <exclude reference="fUP-Ei-zJL"/>
                                     </mask>
                                 </variation>
-                                <variation key="widthClass=regular" misplaced="YES">
-                                    <rect key="frame" x="20" y="232" width="138" height="52"/>
-                                </variation>
                                 <variation key="heightClass=regular-widthClass=regular">
                                     <mask key="constraints">
                                         <include reference="5Y6-k4-aw2"/>
@@ -66,7 +63,7 @@
                                 </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ywk-fA-rsi">
-                                <rect key="frame" x="20" y="269" width="165.5" height="75"/>
+                                <rect key="frame" x="20" y="170" width="138" height="75"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="138" id="fSJ-Qc-S1L"/>
                                     <constraint firstAttribute="height" constant="75" id="iND-Ve-AHy"/>
@@ -80,9 +77,6 @@
                                     <mask key="constraints">
                                         <exclude reference="fSJ-Qc-S1L"/>
                                     </mask>
-                                </variation>
-                                <variation key="widthClass=regular" misplaced="YES">
-                                    <rect key="frame" x="20" y="224" width="138" height="0.0"/>
                                 </variation>
                                 <variation key="heightClass=compact-widthClass=regular" ambiguous="YES" misplaced="YES">
                                     <rect key="frame" x="24" y="72" width="138" height="75"/>
@@ -99,14 +93,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0gn-of-sF1">
-                                <rect key="frame" x="189.5" y="435" width="165.5" height="75"/>
+                                <rect key="frame" x="162" y="336" width="138" height="75"/>
                                 <state key="normal" image="Profile"/>
-                                <variation key="widthClass=regular" misplaced="YES">
-                                    <rect key="frame" x="162" y="292" width="138" height="0.0"/>
-                                </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jJL-DQ-xP9">
-                                <rect key="frame" x="189.5" y="352" width="165.5" height="75"/>
+                                <rect key="frame" x="162" y="253" width="138" height="75"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="138" id="h4A-iH-q5r"/>
                                 </constraints>
@@ -116,9 +107,6 @@
                                         <exclude reference="h4A-iH-q5r"/>
                                     </mask>
                                 </variation>
-                                <variation key="widthClass=regular" misplaced="YES">
-                                    <rect key="frame" x="162" y="232" width="138" height="52"/>
-                                </variation>
                                 <variation key="heightClass=regular-widthClass=regular">
                                     <mask key="constraints">
                                         <include reference="h4A-iH-q5r"/>
@@ -126,7 +114,7 @@
                                 </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eoB-5V-hru">
-                                <rect key="frame" x="20" y="518" width="165.5" height="75"/>
+                                <rect key="frame" x="20" y="419" width="138" height="75"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="75" id="MgB-CB-HrF"/>
                                     <constraint firstAttribute="height" constant="68" id="VYY-zk-CLx"/>
@@ -145,7 +133,7 @@
                                 </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SBi-wt-Ei6" userLabel="Progress">
-                                <rect key="frame" x="189.5" y="269" width="165.5" height="75"/>
+                                <rect key="frame" x="162" y="170" width="138" height="75"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="378" id="Ner-R4-YGe"/>
                                 </constraints>
@@ -171,7 +159,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UvJ-qS-hsQ">
-                                <rect key="frame" x="20" y="435" width="165.5" height="75"/>
+                                <rect key="frame" x="20" y="336" width="138" height="75"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="75" id="GpH-C2-wTT"/>
                                     <constraint firstAttribute="width" constant="308" id="vju-6m-6TY"/>
@@ -190,7 +178,7 @@
                                 </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gqp-Pd-8oE" userLabel="Rewards">
-                                <rect key="frame" x="189.5" y="518" width="165.5" height="75"/>
+                                <rect key="frame" x="162" y="419" width="138" height="75"/>
                                 <state key="normal" image="Rewards">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -200,16 +188,13 @@
                                 </connections>
                             </button>
                             <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="hMo-Uk-FpE">
-                                <rect key="frame" x="-53" y="601" width="480" height="66"/>
-                                <variation key="widthClass=regular" misplaced="YES">
-                                    <rect key="frame" x="93" y="375" width="480" height="0.0"/>
-                                </variation>
+                                <rect key="frame" x="-80" y="502" width="480" height="66"/>
                                 <variation key="heightClass=compact-widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="44" y="320" width="480" height="0.0"/>
                                 </variation>
                             </adBannerView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3ZX-88-dK0">
-                                <rect key="frame" x="0.0" y="64" width="375" height="197"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="98"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -458,12 +443,12 @@
                     <navigationItem key="navigationItem" id="h86-gJ-Z9V">
                         <nil key="title"/>
                         <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="fzc-sC-oai">
-                            <rect key="frame" x="78" y="0.0" width="219" height="44"/>
+                            <rect key="frame" x="50.5" y="0.0" width="219" height="44"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <state key="normal" image="Logo"/>
                         </button>
                     </navigationItem>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QX7-5G-kpY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -478,7 +463,7 @@
                         <viewControllerLayoutGuide type="bottom" id="OvH-G5-d73"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ojN-4C-6WV">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Distance:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ldw-Fa-Ji4">
@@ -486,9 +471,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=regular" ambiguous="YES">
-                                    <rect key="frame" x="20" y="84" width="72" height="20.5"/>
-                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Time:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ljO-dL-wjw">
                                 <rect key="frame" x="16" y="111" width="43" height="21"/>
@@ -498,7 +480,7 @@
                                 <variation key="heightClass=regular" misplaced="YES">
                                     <rect key="frame" x="16" y="111" width="43" height="20.5"/>
                                 </variation>
-                                <variation key="widthClass=regular" ambiguous="YES" misplaced="YES">
+                                <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="20" y="91.5" width="43" height="0.0"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
@@ -512,7 +494,7 @@
                                 <variation key="heightClass=regular" misplaced="YES">
                                     <rect key="frame" x="16" y="139" width="42.5" height="20.5"/>
                                 </variation>
-                                <variation key="widthClass=regular" ambiguous="YES" misplaced="YES">
+                                <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="20" y="99.5" width="42.5" height="0.0"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
@@ -520,7 +502,7 @@
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VJ9-OY-8eI">
-                                <rect key="frame" x="56" y="581" width="488" height="66"/>
+                                <rect key="frame" x="56" y="482" width="488" height="66"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="66" id="Are-U7-MMN"/>
                                 </constraints>
@@ -534,7 +516,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZF7-2I-IAm">
-                                <rect key="frame" x="56" y="473" width="488" height="88"/>
+                                <rect key="frame" x="56" y="374" width="488" height="88"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="88" id="NcY-f7-Fbp"/>
                                 </constraints>
@@ -543,14 +525,20 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=regular" misplaced="YES">
+                                    <rect key="frame" x="60" y="405" width="574" height="88"/>
+                                </variation>
                                 <connections>
                                     <action selector="startPressed:" destination="HWb-Gp-C7s" eventType="touchUpInside" id="yYF-LR-8dJ"/>
                                 </connections>
                             </button>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="bem-Hr-44g">
-                                <rect key="frame" x="0.0" y="181" width="375" height="272"/>
+                                <rect key="frame" x="0.0" y="181" width="320" height="173"/>
                                 <variation key="heightClass=regular" misplaced="YES">
                                     <rect key="frame" x="0.0" y="179" width="320" height="174.5"/>
+                                </variation>
+                                <variation key="widthClass=regular" misplaced="YES">
+                                    <rect key="frame" x="0.0" y="180" width="694" height="372.5"/>
                                 </variation>
                                 <connections>
                                     <outlet property="delegate" destination="HWb-Gp-C7s" id="0Za-NR-COF"/>
@@ -618,15 +606,15 @@
             <objects>
                 <tableViewController id="ZKN-14-UhA" customClass="LibraryController" customModule="Read_60" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="keO-mb-js7">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="ByI-nd-aSs">
-                                <rect key="frame" x="0.0" y="92" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="92" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ByI-nd-aSs" id="FVs-eO-xKB">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -646,15 +634,15 @@
             <objects>
                 <tableViewController id="eTK-aJ-0pg" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="101" sectionHeaderHeight="22" sectionFooterHeight="22" id="hWk-8w-wYF">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="BadgeCell2" rowHeight="136" id="pP8-Nl-B9U" userLabel="BadgeCell2">
-                                <rect key="frame" x="0.0" y="86" width="375" height="136"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="136"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pP8-Nl-B9U" id="Tya-yD-5Ly">
-                                    <rect key="frame" x="0.0" y="0.0" width="342" height="135.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="135.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="oaklandhomerun" translatesAutoresizingMaskIntoConstraints="NO" id="AVw-ga-5gd">
@@ -662,6 +650,9 @@
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="AVw-ga-5gd" secondAttribute="height" multiplier="1:1" id="bq3-Sm-cLG"/>
                                             </constraints>
+                                            <variation key="widthClass=regular" misplaced="YES">
+                                                <rect key="frame" x="494" y="0.0" width="129.5" height="129.5"/>
+                                            </variation>
                                             <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
                                                 <rect key="frame" x="230" y="0.0" width="129" height="130"/>
                                             </variation>
@@ -727,10 +718,10 @@
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </tableViewCell>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="BadgeCell3" rowHeight="136" id="phE-GE-2cE">
-                                <rect key="frame" x="0.0" y="222" width="375" height="136"/>
+                                <rect key="frame" x="0.0" y="222" width="320" height="136"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="phE-GE-2cE" id="KWQ-pq-24j">
-                                    <rect key="frame" x="0.0" y="0.0" width="342" height="135.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="135.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="angels_scholars_logo" translatesAutoresizingMaskIntoConstraints="NO" id="fl9-uO-JhI">
@@ -738,6 +729,9 @@
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="fl9-uO-JhI" secondAttribute="height" multiplier="1:1" id="M3E-zv-bdg"/>
                                             </constraints>
+                                            <variation key="widthClass=regular" misplaced="YES">
+                                                <rect key="frame" x="494" y="0.0" width="129.5" height="129.5"/>
+                                            </variation>
                                             <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
                                                 <rect key="frame" x="230" y="0.0" width="129" height="130"/>
                                             </variation>
@@ -803,10 +797,10 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableViewCell>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="BadgeCell4" rowHeight="136" id="cMB-FS-DDo">
-                                <rect key="frame" x="0.0" y="358" width="375" height="136"/>
+                                <rect key="frame" x="0.0" y="358" width="320" height="136"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cMB-FS-DDo" id="bX9-bX-Rzj">
-                                    <rect key="frame" x="0.0" y="0.0" width="342" height="135.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="135.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="product7" translatesAutoresizingMaskIntoConstraints="NO" id="lWB-Na-JNb">
@@ -839,6 +833,9 @@
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="pOb-Cf-pOn" secondAttribute="height" multiplier="1:1" id="MZD-XE-xTy"/>
                                             </constraints>
+                                            <variation key="widthClass=regular" misplaced="YES">
+                                                <rect key="frame" x="494" y="0.0" width="129.5" height="129.5"/>
+                                            </variation>
                                             <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
                                                 <rect key="frame" x="230" y="0.0" width="129" height="130"/>
                                             </variation>
@@ -1016,15 +1013,15 @@
                         <viewControllerLayoutGuide type="bottom" id="a0L-h9-sNL"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="MMQ-IT-qOo">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="yF8-fr-X1f">
-                                <rect key="frame" x="0.0" y="64" width="375" height="250"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="250"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="250" id="XER-SO-NQB"/>
                                 </constraints>
-                                <variation key="widthClass=regular" ambiguous="YES" misplaced="YES">
+                                <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="0.0" y="64" width="568" height="85"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
@@ -1038,7 +1035,7 @@
                                 <rect key="frame" x="250" y="324" width="101" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=regular" ambiguous="YES" misplaced="YES">
+                                <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="250" y="159" width="101" height="30"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
@@ -1049,7 +1046,7 @@
                                 <rect key="frame" x="16" y="414" width="43" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=regular" ambiguous="YES" misplaced="YES">
+                                <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="20" y="249" width="43" height="20.5"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
@@ -1060,7 +1057,7 @@
                                 <rect key="frame" x="16" y="446" width="44" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=regular" ambiguous="YES" misplaced="YES">
+                                <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="20" y="446" width="44" height="21"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
@@ -1071,7 +1068,7 @@
                                 <rect key="frame" x="141" y="374" width="36" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=regular" ambiguous="YES" misplaced="YES">
+                                <variation key="widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="141" y="209" width="36" height="20.5"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
