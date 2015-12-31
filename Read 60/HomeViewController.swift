@@ -15,7 +15,7 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Test code for getting all students
+        // Test code for getting all students////////////
         restManager.get("students") {
             results in
         
@@ -27,13 +27,35 @@ class HomeViewController: UIViewController {
                 
             }
         }
+        /////////////////////////////////////////////////
         
-        // Test code for getting one student
+        // Test code for getting one student/////////////
         restManager.getById("students", id: 15) {
             results in
             
             print(results["firstName"] as! String)
         }
+        /////////////////////////////////////////////////
+        
+        // Test code for adding one student//////////////
+        let testAdd: AnyObject = [
+            "firstName" : "Tester",
+            "lastName" : "Testington"
+        ]
+        restManager.post("students", object: testAdd) {
+            results in
+            print(results)
+        }
+        /////////////////////////////////////////////////
+        
+        // Test code for deleting a student//////////////
+        let testDelete: AnyObject = [
+            "id" : "43",
+            "firstName" : "Tester",
+            "lastName" : "Testington"
+        ]
+        restManager.delete("students", object: testDelete)
+        /////////////////////////////////////////////////
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
