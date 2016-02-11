@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		3CB9A1B020ABD167A9F4D285 /* Pods_Read_60.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 544A07C7473203C44646DDC5 /* Pods_Read_60.framework */; };
 		B06509701C3116CE00D619E8 /* RestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B065096F1C3116CE00D619E8 /* RestManager.swift */; };
+		B0A4007B1C63273D0055BF6A /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0A4007A1C63273D0055BF6A /* iAd.framework */; };
+		B0C036601C6C340500256F19 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C0365F1C6C340500256F19 /* LoginViewController.swift */; };
+		B0C036621C6C35DD00256F19 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C036611C6C35DD00256F19 /* SignUpViewController.swift */; };
 		BF2ECB911C24D06C0040AEC7 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF2ECB901C24D06C0040AEC7 /* Launch Screen.storyboard */; };
 		BF3F93391C0713EC0073DC03 /* Read60.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF3F93371C0713EC0073DC03 /* Read60.xcdatamodeld */; };
 		BF3F933A1C0717EB0073DC03 /* Read60.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = BF3F93371C0713EC0073DC03 /* Read60.xcdatamodeld */; };
@@ -49,6 +52,9 @@
 		544A07C7473203C44646DDC5 /* Pods_Read_60.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Read_60.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FA89905CB33E53D19CA0799 /* Pods-Read 60.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Read 60.release.xcconfig"; path = "Pods/Target Support Files/Pods-Read 60/Pods-Read 60.release.xcconfig"; sourceTree = "<group>"; };
 		B065096F1C3116CE00D619E8 /* RestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestManager.swift; sourceTree = "<group>"; };
+		B0A4007A1C63273D0055BF6A /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		B0C0365F1C6C340500256F19 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B0C036611C6C35DD00256F19 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		BF2ECB901C24D06C0040AEC7 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		BF3F93381C0713EC0073DC03 /* Read60.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Read60.xcdatamodel; sourceTree = "<group>"; };
 		BF3F933B1C071FA20073DC03 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -79,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0A4007B1C63273D0055BF6A /* iAd.framework in Frameworks */,
 				BF3F933C1C071FA20073DC03 /* UIKit.framework in Frameworks */,
 				3CB9A1B020ABD167A9F4D285 /* Pods_Read_60.framework in Frameworks */,
 			);
@@ -104,6 +111,7 @@
 		299F71D94ED7E8395A8FBA50 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B0A4007A1C63273D0055BF6A /* iAd.framework */,
 				544A07C7473203C44646DDC5 /* Pods_Read_60.framework */,
 			);
 			name = Frameworks;
@@ -158,6 +166,8 @@
 				BF92CD101C06BD0100E382FE /* Run.swift */,
 				BF92CD111C06BD0100E382FE /* success.wav */,
 				BFC495F91C0BE87000486A85 /* LibraryController.swift */,
+				B0C0365F1C6C340500256F19 /* LoginViewController.swift */,
+				B0C036611C6C35DD00256F19 /* SignUpViewController.swift */,
 			);
 			path = "Read 60";
 			sourceTree = "<group>";
@@ -379,10 +389,12 @@
 				BF92CD141C06BD0100E382FE /* Run.swift in Sources */,
 				BFCEF7A81C06BB98000AFD46 /* AppDelegate.swift in Sources */,
 				BF92CD121C06BD0100E382FE /* MulticolorPolylineSegment.swift in Sources */,
+				B0C036621C6C35DD00256F19 /* SignUpViewController.swift in Sources */,
 				BF92CD0A1C06BCDB00E382FE /* Location.swift in Sources */,
 				BFCEF7AF1C06BB98000AFD46 /* DetailViewController.swift in Sources */,
 				BFC495FA1C0BE87000486A85 /* LibraryController.swift in Sources */,
 				BF92CD061C06BCB000E382FE /* HomeViewController.swift in Sources */,
+				B0C036601C6C340500256F19 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

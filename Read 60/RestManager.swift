@@ -12,16 +12,20 @@ class RestManager {
     
     // 'root' will need to contain "https" in the future
     // Added temp code in Info.plist to allow no https
-    var root: String = "http://services.read60.com/"
+    var root: String = "http://read60rest-read60.rhcloud.com/"
+    var token: String = ""
     
     init() {}
-    init(root: String) {
+    init(token:String, root: String) {
+        self.token = token
         self.root = root
     }
     
     // GET REQUEST: returns list of entities depending on endPoint
     func get(endPoint: String, resultHandler:(results:Array<AnyObject>)->()) {
-        let session = NSURLSession.sharedSession()
+        let config = NSURLSessionConfiguration.defaultSessionConfiguration()
+        config.HTTPAdditionalHeaders = ["Authorization" : "Bearer 61ebc8f9cd9a42be9cd5417d126d5173"]
+        let session = NSURLSession(configuration: config)
         let url = NSURL(string: root + endPoint)!
         session.dataTaskWithURL(url, completionHandler: { ( data: NSData?, response: NSURLResponse?, error: NSError?) -> Void in
             // Make sure we get an OK response
@@ -52,7 +56,7 @@ class RestManager {
     //GET REQUEST: returns single entity by ID depending on endPoint
     func getById(endPoint: String, id: Int, resultHandler:(results:AnyObject)->()) {
         let config = NSURLSessionConfiguration.defaultSessionConfiguration()
-        config.HTTPAdditionalHeaders = ["Authorization" : "TokenCode"] // Need a way to store this code and use it in this service
+        config.HTTPAdditionalHeaders = ["Authorization" : "Bearer 61ebc8f9cd9a42be9cd5417d126d5173"] // Need a way to store this code and use it in this service
         let session = NSURLSession(configuration: config)
         let url = NSURL(string: root + endPoint + "/" + String(id))!
         session.dataTaskWithURL(url, completionHandler: { ( data: NSData?, response: NSURLResponse?, error: NSError?) -> Void in
@@ -87,7 +91,7 @@ class RestManager {
     }
     
     // POST REQUEST: creates entity depending on endPoint; returns ID of created object
-    func post(endPoint: String, object: AnyObject, resultHandler:(results:String)->()) {
+    func post(endPoint: String, object: AnyObject, resultHandler:(results:AnyObject)->()) {
         // Setup the session to make REST POST call
         let url = NSURL(string: root + endPoint)!
         let session = NSURLSession.sharedSession()
@@ -119,6 +123,8 @@ class RestManager {
                 // Print what we got from the call
                 print("POST: " + postString)
             }
+            
+            
             
         }).resume()
     }
