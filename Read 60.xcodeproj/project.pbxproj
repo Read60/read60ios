@@ -26,8 +26,6 @@
 		BFC495FA1C0BE87000486A85 /* LibraryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC495F91C0BE87000486A85 /* LibraryController.swift */; };
 		BFCEF7A81C06BB98000AFD46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCEF7A71C06BB98000AFD46 /* AppDelegate.swift */; };
 		BFCEF7AF1C06BB98000AFD46 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCEF7AE1C06BB98000AFD46 /* DetailViewController.swift */; };
-		BFCEF7C21C06BB98000AFD46 /* Read_60Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCEF7C11C06BB98000AFD46 /* Read_60Tests.swift */; };
-		BFCEF7CD1C06BB98000AFD46 /* Read_60UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCEF7CC1C06BB98000AFD46 /* Read_60UITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +47,7 @@
 
 /* Begin PBXFileReference section */
 		9FA89905CB33E53D19CA0799 /* Pods-Read 60.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Read 60.release.xcconfig"; path = "Pods/Target Support Files/Pods-Read 60/Pods-Read 60.release.xcconfig"; sourceTree = "<group>"; };
+		B0457FB41C6DB62A00BCF2D6 /* Read 60.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Read 60.app"; path = "/Users/michaelvillar/Desktop/Projects/Read60/Mobile/iOS/read60ios/build/Debug-iphoneos/Read 60.app"; sourceTree = "<absolute>"; };
 		B065096F1C3116CE00D619E8 /* RestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestManager.swift; sourceTree = "<group>"; };
 		B0A4007A1C63273D0055BF6A /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		B0C0365F1C6C340500256F19 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -66,15 +65,10 @@
 		BF92CD101C06BD0100E382FE /* Run.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
 		BF92CD111C06BD0100E382FE /* success.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = success.wav; sourceTree = "<group>"; };
 		BFC495F91C0BE87000486A85 /* LibraryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryController.swift; sourceTree = "<group>"; };
-		BFCEF7A41C06BB98000AFD46 /* Read 60.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Read 60.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFCEF7A71C06BB98000AFD46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFCEF7AE1C06BB98000AFD46 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		BFCEF7BD1C06BB98000AFD46 /* Read 60Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Read 60Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFCEF7C11C06BB98000AFD46 /* Read_60Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Read_60Tests.swift; sourceTree = "<group>"; };
-		BFCEF7C31C06BB98000AFD46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BFCEF7C81C06BB98000AFD46 /* Read 60UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Read 60UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFCEF7CC1C06BB98000AFD46 /* Read_60UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Read_60UITests.swift; sourceTree = "<group>"; };
-		BFCEF7CE1C06BB98000AFD46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFCEF7BD1C06BB98000AFD46 /* Read 60Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Read 60Tests.xctest"; path = "/Users/michaelvillar/Desktop/Projects/Read60/Mobile/iOS/read60ios/build/Debug-iphoneos/Read 60Tests.xctest"; sourceTree = "<absolute>"; };
+		BFCEF7C81C06BB98000AFD46 /* Read 60UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Read 60UITests.xctest"; path = "/Users/michaelvillar/Desktop/Projects/Read60/Mobile/iOS/read60ios/build/Debug-iphoneos/Read 60UITests.xctest"; sourceTree = "<absolute>"; };
 		F5E6BBC9296EA8419A326DF0 /* Pods-Read 60.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Read 60.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Read 60/Pods-Read 60.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,22 +122,9 @@
 			children = (
 				BF92CD181C06BDE000E382FE /* Base */,
 				BFCEF7A61C06BB98000AFD46 /* Read 60 */,
-				BFCEF7C01C06BB98000AFD46 /* Read 60Tests */,
-				BFCEF7CB1C06BB98000AFD46 /* Read 60UITests */,
-				BFCEF7A51C06BB98000AFD46 /* Products */,
 				FD019C662FE55615F7E60729 /* Pods */,
 				299F71D94ED7E8395A8FBA50 /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		BFCEF7A51C06BB98000AFD46 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BFCEF7A41C06BB98000AFD46 /* Read 60.app */,
-				BFCEF7BD1C06BB98000AFD46 /* Read 60Tests.xctest */,
-				BFCEF7C81C06BB98000AFD46 /* Read 60UITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		BFCEF7A61C06BB98000AFD46 /* Read 60 */ = {
@@ -166,24 +147,6 @@
 				B0C036611C6C35DD00256F19 /* SignUpViewController.swift */,
 			);
 			path = "Read 60";
-			sourceTree = "<group>";
-		};
-		BFCEF7C01C06BB98000AFD46 /* Read 60Tests */ = {
-			isa = PBXGroup;
-			children = (
-				BFCEF7C11C06BB98000AFD46 /* Read_60Tests.swift */,
-				BFCEF7C31C06BB98000AFD46 /* Info.plist */,
-			);
-			path = "Read 60Tests";
-			sourceTree = "<group>";
-		};
-		BFCEF7CB1C06BB98000AFD46 /* Read 60UITests */ = {
-			isa = PBXGroup;
-			children = (
-				BFCEF7CC1C06BB98000AFD46 /* Read_60UITests.swift */,
-				BFCEF7CE1C06BB98000AFD46 /* Info.plist */,
-			);
-			path = "Read 60UITests";
 			sourceTree = "<group>";
 		};
 		FD019C662FE55615F7E60729 /* Pods */ = {
@@ -215,7 +178,7 @@
 			);
 			name = "Read 60";
 			productName = "Read 60";
-			productReference = BFCEF7A41C06BB98000AFD46 /* Read 60.app */;
+			productReference = B0457FB41C6DB62A00BCF2D6 /* Read 60.app */;
 			productType = "com.apple.product-type.application";
 		};
 		BFCEF7BC1C06BB98000AFD46 /* Read 60Tests */ = {
@@ -286,7 +249,7 @@
 				Base,
 			);
 			mainGroup = BFCEF79B1C06BB98000AFD46;
-			productRefGroup = BFCEF7A51C06BB98000AFD46 /* Products */;
+			productRefGroup = BFCEF79B1C06BB98000AFD46;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -398,7 +361,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFCEF7C21C06BB98000AFD46 /* Read_60Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,7 +368,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFCEF7CD1C06BB98000AFD46 /* Read_60UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,6 +490,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Read 60/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.celebritypublishing.Read-60";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -541,6 +503,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Read 60/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.celebritypublishing.Read-60";
 				PRODUCT_NAME = "$(TARGET_NAME)";
