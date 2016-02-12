@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3CB9A1B020ABD167A9F4D285 /* Pods_Read_60.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 544A07C7473203C44646DDC5 /* Pods_Read_60.framework */; };
 		B06509701C3116CE00D619E8 /* RestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B065096F1C3116CE00D619E8 /* RestManager.swift */; };
 		B0A4007B1C63273D0055BF6A /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0A4007A1C63273D0055BF6A /* iAd.framework */; };
 		B0C036601C6C340500256F19 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C0365F1C6C340500256F19 /* LoginViewController.swift */; };
@@ -49,7 +48,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		544A07C7473203C44646DDC5 /* Pods_Read_60.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Read_60.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FA89905CB33E53D19CA0799 /* Pods-Read 60.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Read 60.release.xcconfig"; path = "Pods/Target Support Files/Pods-Read 60/Pods-Read 60.release.xcconfig"; sourceTree = "<group>"; };
 		B065096F1C3116CE00D619E8 /* RestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestManager.swift; sourceTree = "<group>"; };
 		B0A4007A1C63273D0055BF6A /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
@@ -87,7 +85,6 @@
 			files = (
 				B0A4007B1C63273D0055BF6A /* iAd.framework in Frameworks */,
 				BF3F933C1C071FA20073DC03 /* UIKit.framework in Frameworks */,
-				3CB9A1B020ABD167A9F4D285 /* Pods_Read_60.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,8 +108,8 @@
 		299F71D94ED7E8395A8FBA50 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BF3F933B1C071FA20073DC03 /* UIKit.framework */,
 				B0A4007A1C63273D0055BF6A /* iAd.framework */,
-				544A07C7473203C44646DDC5 /* Pods_Read_60.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -129,7 +126,6 @@
 		BFCEF79B1C06BB98000AFD46 = {
 			isa = PBXGroup;
 			children = (
-				BF3F933B1C071FA20073DC03 /* UIKit.framework */,
 				BF92CD181C06BDE000E382FE /* Base */,
 				BFCEF7A61C06BB98000AFD46 /* Read 60 */,
 				BFCEF7C01C06BB98000AFD46 /* Read 60Tests */,
