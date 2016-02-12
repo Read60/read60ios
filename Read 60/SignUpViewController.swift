@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 class SignUpViewController: UIViewController {
     
@@ -37,45 +38,38 @@ class SignUpViewController: UIViewController {
         let email:NSString = txtEmail.text! as NSString
         let username:NSString = txtUsername.text! as NSString
         let password:NSString = txtPassword.text! as NSString
-      
         
-        var student: AnyObject = [
+        let student: [String: AnyObject] = [
             "firstName" : firstName,
-            "lastName" : lastName            
-        ]
-        
-        var credentials: AnyObject = [
-            "username" : username,
-            "password" : password,
-            "email" : email,
-            "student" : student
-            
-        ]
-       
-
-//        restManager.post("students", object: student) {
-//            results in
-//           
-//            print("TESTING SOMETHING")
-//            print(results)
-//            
-//
-//            
-      //  }
-        //            let credentials: AnyObject = [
-        //                "username" : username,
-        //                "password" : password,
-        //                "email" : email,
-        //                "student" : {
-        //                    "id" : results["id"],
-        //                    "firstName" : results["firstName"]
-        //                }
-        //            ]
-        //
-        
-        restManager.post("register", object: credentials) {
-            results in
-            
+            "lastName" : lastName
+            ]
+    
+        Alamofire.request(.POST, "http://read60rest-read60.rhcloud.com/students", parameters: student, encoding:.JSON).responseJSON
+            { response in switch response.result {
+            case .Success(let JSON):
+                print("Success with JSON: \(JSON)")
+                
+                let response = JSON as! NSDictionary
+                
+                //example if there is an id
+                let userId = response.objectForKey("id")!
+                
+                let credentials: [String: AnyObject] = [
+                    "username" : username,
+                    "password" : password,
+                    "email" : email,
+                    "student" : [
+                        "id" : userId,
+                        "firstName" : firstName,
+                        "lastName" : lastName
+                    ]
+                ]
+                
+                Alamofire.request(.POST, "http://read60rest-read60.rhcloud.com/register", parameters: credentials, encoding:.JSON)
+                
+            case .Failure(let error):
+                print("Request failed with error: \(error)")
+                }
         }
     
     }

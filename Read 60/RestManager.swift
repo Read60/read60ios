@@ -20,6 +20,7 @@ class RestManager {
     init(token:String, root: String) {
         self.token = token
         self.root = root
+        
     }
     
     // GET REQUEST: returns list of entities depending on endPoint
